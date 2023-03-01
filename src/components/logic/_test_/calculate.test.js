@@ -13,7 +13,8 @@ describe('Test Calculator functioning', () => {
 
   // it('When there is an operation, update next', () => {
   //   const operationObj = { ...obj, next: '5', operation: '-' };
-  //   expect(calculate(operationObj, '7')).toEqual({ ...operationObj, next: `${operationObj.next}7` });
+  //   expect(calculate(operationObj, '7')).toEqual({ ...operationObj,
+  //   next: `${operationObj.next}7` });
   // });
 
   it('When there is no operation, update next and clear the value', () => {

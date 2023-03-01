@@ -1,4 +1,4 @@
-import operate from '../operate.js';
+import operate from '../operate';
 
 describe('Operate logic component test', () => {
   it('Addition:', () => {
