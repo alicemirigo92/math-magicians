@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4% 2%;
+}
+
+.h1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
