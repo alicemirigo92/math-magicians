@@ -11,12 +11,6 @@ describe('Test Calculator functioning', () => {
     expect(calculate(obj, '0')).toEqual({ next: '0', total: null });
   });
 
-  // it('When there is an operation, update next', () => {
-  //   const operationObj = { ...obj, next: '5', operation: '-' };
-  //   expect(calculate(operationObj, '7')).toEqual({ ...operationObj,
-  //   next: `${operationObj.next}7` });
-  // });
-
   it('When there is no operation, update next and clear the value', () => {
     expect(calculate(obj, '5')).toEqual({ next: '5', total: null });
   });
