@@ -4,6 +4,9 @@ describe('Operate logic component test', () => {
   it('Addition:', () => {
     expect(operate(3, 2, '+')).toEqual('5');
   });
+  it('Division:', () => {
+    expect(operate(3, 1, '÷')).toEqual('3');
+  });
   it('Division by zero:', () => {
     expect(operate(3, 0, '÷')).toEqual("Can't divide by 0.");
   });
